@@ -1,1 +1,6 @@
 rule mafft:
+	input: "data/DsrA.faa"
+	output: "intermediate/DsrA.mafft_aligned.faa"
+	shell: "mafft {input} > {output}"
+	
+	
