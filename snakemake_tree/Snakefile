@@ -1,6 +1,7 @@
 rule mafft:
-	input: "data/DsrA.faa"
-	output: "intermediate/DsrA.mafft_aligned.faa"
-	shell: "mafft {input} > {output}"
+	input: "data/{seqname}.faa"
+	output: "intermediate/{seqname}.mafft_aligned.faa"
+	shell: "module load mafft &&"
+			"mafft {input} > {output}"
 	
 	
