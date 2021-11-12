@@ -6,3 +6,4 @@ Second edit from the server
 third change again from github.
 fourth change stage
 
+changes to raise a new **confict**
